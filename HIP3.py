@@ -12,4 +12,4 @@ dollar_coins = int(input("How many dollar coins do you have?:"))
 
 cents = float (pennies + (nickels * 5) + (dimes * 10) + (quarters * 25) + (half_dollars * 50) + (dollar_coins * 100))
 
-amount = float (cents )
+amount = float (cents / 100 )
