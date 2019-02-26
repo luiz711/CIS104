@@ -1,9 +1,9 @@
 import calculator
-
+#functions for user input
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 oper = (input ("enter an operation: "))
-
+#diffrent options they can choose to do in the calculator
 print = ("select an operation")
 
 print = ("+ Add")
@@ -28,23 +28,23 @@ print = ("C/c Clear calculator")
 
 print = ("X/x Exit =")
 
-if oper == "+":
-    
-    answer = calculator.add (num1,num2)
+if oper == "+": #type of function being used
 
-    num1 = answer
+    answer = calculator.add (num1,num2) #calling the numbers being used in the function they picked
 
-    print (answer)
+    num1 = answer #outputs answer
+
+    return (answer)
 
   
 
-  elif oper == "-":
+ elif oper == "-":
 
     answer = calculator.subtract (num1,num2)
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
   
 
@@ -54,7 +54,7 @@ if oper == "+":
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
 
 
@@ -64,7 +64,7 @@ if oper == "+":
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
 
 
@@ -74,7 +74,7 @@ if oper == "+":
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
 
 
@@ -84,7 +84,7 @@ if oper == "+":
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
   
 
@@ -94,7 +94,7 @@ if oper == "+":
 
     num1 = answer
 
-    print ("Memory cleared.")
+    return ("Memory cleared.")
 
   
 
@@ -104,7 +104,7 @@ if oper == "+":
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
 
 
@@ -114,7 +114,7 @@ if oper == "+":
 
     num1 = answer
 
-    print (answer)
+    return (answer)
 
 
 

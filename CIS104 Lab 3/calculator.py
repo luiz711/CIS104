@@ -1,4 +1,6 @@
 saved_mem = 0
+short_term_mem = 0
+long_term_mem = 0
 
 
 
@@ -40,15 +42,15 @@ def invert(num1):
 # saves answers
 def  call_mem():
 
-    return saved_mem
+    return short_term_mem
 
 
 #recalls memory
 def save_mem(num1):
 
-    global saved_mem
+    global long_term_mem
 
-    saved_mem = num1
+    long_term_mem = num1
 
 
 #clears memory
